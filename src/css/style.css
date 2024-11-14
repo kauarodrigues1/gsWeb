@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+header{
+    background-color: rgb(47, 147, 180);
+    padding: 10px;
+
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(96, 224, 171), #fff);
+    height: 100%;
+    position: relative;
+}
+
+main{
+    display: flex;
+    height: 10vh;
+    min-height: 10px;
+    bottom: 70%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    font-size: 30px;
+}
+
+#menu-itens1{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(121, 190, 212);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.rodape {
+    background-color: #68d6a3ff; 
+    padding: 50px; 
+    height: 150px;
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    margin-top: 50px;
+    position:bottom;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgba(173, 216, 230, 0.5); 
+}
+
+.menu-subitens-hidden{
+    display: none;
+} 
+
+.menu-subitem a:hover{
+    color: rgb(0, 92, 122);
+}
+
+.menu-item-label{
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
