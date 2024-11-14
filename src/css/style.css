@@ -36,7 +36,7 @@ a{
 .nav{
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     height: 55px;
     font-size: 30px;
@@ -84,3 +84,40 @@ a{
     cursor: pointer;
 }
 
+.botoes{
+    /* margin-left: 80%; */
+    margin-top: 7px;
+}
+
+.botoes button{
+    border-radius: 100000px;
+    border: 1px solid black ;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+.botao1{
+    background-color: rgba(173, 216, 230, 0.5);
+    margin-left: 40px;
+}
+.botao2{
+    background-color: rgb(104, 214, 163);
+}
+.botao3{
+    background-color: rgb(217, 219, 88);
+}
+.botao1:hover{
+    background-color: rgba(55, 186, 230, 0.5);
+}
+.botao2:hover{
+    background-color: rgb(42, 235, 145);
+}
+.botao3:hover{
+    background-color: rgb(233, 236, 38);
+}
+
+.botoes button:active{
+    box-shadow: inset -2px 2px 0 #222;
+}
