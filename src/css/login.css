@@ -181,3 +181,12 @@ a{
     color:#fff;
     margin-left: 50px;
 }
+
+.menu-subitem.menu-subitem a{
+    transition: color 0.3s;
+}
+
+.menu-subitem a:hover{
+    color: #25fa56;
+}
+

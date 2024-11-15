@@ -110,7 +110,7 @@ a{
 
 }
 .login:hover{
-    background-color: #28a745;
+    background-color: #34ca57;
     text-decoration: none; 
     cursor:pointer;
 }
@@ -151,4 +151,12 @@ a{
 
 .botoes button:active{
     box-shadow: inset -2px 2px 0 #222;
+}
+
+.menu-subitem.menu-subitem a{
+    transition: color 0.3s;
+}
+
+.menu-subitem a:hover{
+    color: #25fa56;
 }
