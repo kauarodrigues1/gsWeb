@@ -69,12 +69,16 @@ function checarCampos(){
         controle.className = "controle sucesso"
     }
 
-    // function chamar(){
-    //     if(validarErro ){
-    //         window.location ="login.html"
-    //     }else{
-    //         window.location ="quizz.html"
-    //     }
-    // }
 
-    // arruma a função de quando acertar o login ir pra pagina do quizz
+    function chamar() {
+        
+        let validarErro = checarCampos();
+
+        if (validarErro){
+            window.location = "login.html";
+        } else {
+            window.location = "quizz.html";
+        }
+    }
+
+    
