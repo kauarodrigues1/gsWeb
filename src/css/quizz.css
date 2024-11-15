@@ -4,45 +4,43 @@
     box-sizing: border-box;
 }
 
-.nav{
-    margin-top: 10px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 55px;
-    font-size: 30px;
-}
-
-#menu-itens1{
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgb(121, 190, 212);
-    font-size: 25px;
-    padding: 10px;
-}
-
 .pag {
-    background-image: linear-gradient(45deg, #361c3b,#7fffd4,green);
-    background-size: 300%, 300%;
+    background: rgba(173, 216, 230, 0.5);
     animation: color 12s ease-in-out infinite;
-    font-family: "Poppings", sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-@keyframes color {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
+
+header {
+    background-color: rgb(47, 147, 180);
+    padding: 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 55px;
+    font-size: 30px;
+}
+
+#menu-itens1 {
+    position: absolute;
+    top: 100%; 
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(121, 190, 212);
+    font-size: 25px;
+    padding: 10px;
 }
 
 .link-nav {
@@ -52,9 +50,6 @@
     transition: color 0.3s ease;
 }
 
-.link-nav:hover {
-    color: #2f9766;
-}
 
 .logo {
     margin-top: 10px;
@@ -67,39 +62,39 @@
     margin-right: 150px;
 }
 
-.quiz-container{
+.quiz-container {
     background: #fff;
-    box-shadow: 0 0 10px 1px rgba(100, 100, 100, 0.);
+    box-shadow: 0 0 10px 1px rgba(100, 100, 100, 0.5);
     width: 600px;
 }
 
-.quiz-header{
+.quiz-header {
     padding: 4rem;
 }
 
-h2{
+h2 {
     padding: 1rem;
     text-align: center;
     margin: 0;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-ul li{
+ul li {
     font-size: 1.2rem;
     margin: 1rem 0;
 }
 
-ul li label{
+ul li label {
     cursor: pointer;
 }
 
-button{
-    background: aquamarine;
-    color: green;
+button {
+    background: rgb(47, 147, 180);
+    color: white;
     border: none;
     display: block;
     width: 100%;
@@ -108,23 +103,15 @@ button{
     padding: 1.1rem;
 }
 
-header {
-    background-color: #68d6a3ff; 
-    padding: 15px 20px; 
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
+.menu-subitens-hidden {
+    display: none;
 }
 
-.menu-subitens-hidden{
-    display: none;
-} 
-
-.menu-subitem a:hover{
+.menu-subitem a:hover {
     color: rgb(0, 92, 122);
 }
 
-.menu-item-label{
+.menu-item-label {
     margin-left: 15px;
     margin-top: 15px;
     cursor: pointer;
