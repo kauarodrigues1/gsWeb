@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+header{
+    background-color: rgb(47, 147, 180);
+    padding: 10px;
+
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(96, 224, 171), #fff);
+    height: 100%;
+    position: relative;
+}
+
+main{
+    display: flex;
+    height: 10vh;
+    min-height: 10px;
+    bottom: 70%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 55px;
+    font-size: 30px;
+}
+
+#menu-itens1{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(121, 190, 212);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.rodape {
+    background-color: #68d6a3ff; 
+    padding: 50px; 
+    height: 150px;
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    margin-top: 50px;
+    position:bottom;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgba(173, 216, 230, 0.5); 
+}
+
+.menu-subitens-hidden{
+    display: none;
+} 
+
+.menu-subitem a:hover{
+    color: rgb(0, 92, 122);
+}
+
+.menu-item-label{
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.botoes{
+    /* margin-left: 80%; */
+    margin-top: 7px;
+}
+
+.botoes button{
+    border-radius: 100000px;
+    border: 1px solid black ;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+.botao1{
+    background-color: rgba(173, 216, 230, 0.5);
+    margin-left: 40px;
+}
+.botao2{
+    background-color: rgb(104, 214, 163);
+}
+.botao3{
+    background-color: rgb(217, 219, 88);
+}
+.botao1:hover{
+    background-color: rgba(55, 186, 230, 0.5);
+}
+.botao2:hover{
+    background-color: rgb(42, 235, 145);
+}
+.botao3:hover{
+    background-color: rgb(233, 236, 38);
+}
+
+.botoes button:active{
+    box-shadow: inset -2px 2px 0 #222;
+}
+
+.form{
+    padding: 0 40px 30px;
+}
+.controle{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.controle label{
+    display: inline-block;
+    color:#041944;
+    font-weight: 900;
+}
+
+.controle input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.controle.error i.error{
+    visibility: visible;
+}
+
+.controle.sucesso i.sucesso{
+    visibility: visible;
+}
+.controle.error small{
+    color:rgb(47, 147, 180);
+    font-size: 11px; /* 1rem equivale a 16px*/
+    visibility: visible;
+}
+.controle i{
+    position: absolute;
+    top:4px;
+    right: 10px;
+    visibility: hidden;  
+}
+.controle small{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 10px;
+    color:rgb(47, 147, 180);
+}
+.form button{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: rgb(47, 147, 180);
+    color:#fff;
+    margin-left: 50px;
+}
