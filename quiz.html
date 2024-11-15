@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaik Quiz</title>
+    <link rel="stylesheet" href="./src/css/quizz.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+        
+            <a href="./index.html"><img src="./src/assets/logo2.png" alt="" width="200px"></a>
+
+            <div class="menu-item">
+
+                <div id="menu-item1" class="menu-item-label">
+                    <img src="/src/assets/menuicon2.png" alt="" width="30px" >
+                </div>
+
+                <div id="menu-itens1" class="menu-itens menu-subitens-hidden">
+                    <div class="menu-subitem">
+                        <li><a  href="./quiz.html">Quiz</a></li>
+                    </div>
+                    <div class="menu-subitem">
+                        <li><a  href="./tecnologias.html">Tecnologia</a></li>
+                    </div>
+                    <div class="menu-subitem">
+                        <li><a href="./objetivos.html">Objetivos</a></li>
+                    </div>
+                    <div class="menu-subitem">
+                        <li><a href="./publico.html">Público</a></li>
+                    </div>
+                    <div class="menu-subitem">
+                        <li><a href="./beneficios.html">Benefícios</a></li>
+                    </div>
+                    <div class="menu-subitem">
+                        <li><a href="./impacto.html">Impacto</a></li>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>  
+    </header>
+
+    
+    <div class="pag">
+    <div class="quiz-container" id="quiz"> 
+        <div class="quiz-header">
+            <h2 id="question">Questão</h2>
+            <ul>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="a">
+                    <label for="a" id="optionA">Opção A</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="b">
+                    <label for="b" id="optionB">Opção B</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="c">
+                    <label for="c" id="optionC">Opção C</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="d">
+                    <label for="d" id="optionD">Opção D</label>
+                </li>
+            </ul>
+        </div>
+
+        <button class="submit">Enviar</button>
+    </div>
+    </div>
+    <script src="./src/js/quizz.js" type="module"></script>
+</body>
+</html>
