@@ -133,21 +133,27 @@ a{
 .botao1{
     background-color: rgba(98, 191, 223, 0.5);
     margin-left: 40px;
+    transition: transform 0.2s ease-in-out;
 }
 .botao2{
     background-color:  rgb(104, 214, 163);
+    transition: transform 0.2s ease-in-out;
 }
 .botao3{
     background-color: rgb(217, 219, 88);
+    transition: transform 0.2s ease-in-out;
 }
 .botao1:hover{
     background-color: rgba(55, 186, 230, 0.5);
+    transform: translateY(-2px);
 }
 .botao2:hover{
     background-color: rgb(42, 235, 145);
+    transform: translateY(-2px);
 }
 .botao3:hover{
     background-color: rgb(233, 236, 38);
+    transform: translateY(-2px);
 }
 
 .botoes button:active{
