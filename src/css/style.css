@@ -76,7 +76,7 @@ a{
     align-items: center;
     height: 400px;
     padding: 50px;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: rgba(173, 216, 230, 0.5); 
 }
 
@@ -166,3 +166,9 @@ a{
 .menu-subitem a:hover{
     color: white; 
 }
+
+.conteudo img{
+    margin-right: 10px;
+    border-radius: 4px;
+}
+

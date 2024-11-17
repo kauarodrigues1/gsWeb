@@ -59,3 +59,19 @@ function trocarCorBotao3() {
     menuItens1.style.backgroundColor = 'rgba(217, 219, 88, 0.8)';
     body.style.backgroundColor = "rgb(217, 219, 88)"; 
   }
+
+  let imagens =[
+    "src/assets/placasolar.jpg",
+    "src/assets/energia-eolica.jpg",
+    "src/assets/eolicas.jpg"
+];
+let i=0;
+let time =10000;
+
+function slideShow(){
+    document.getElementById("image").src=imagens[i];
+    i++;
+    if(i == imagens.length) {i=0;}
+    setTimeout("slideShow()",time)  
+    }
+    slideShow();
