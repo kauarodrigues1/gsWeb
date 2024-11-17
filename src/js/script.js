@@ -32,6 +32,7 @@ function trocarCorBotao1() {
     conteudo.style.backgroundColor = 'rgba(173, 216, 230, 0.5)';
     rodape.style.backgroundColor = 'rgb(47, 147, 180)'; 
     menuItens1.style.backgroundColor = 'rgba(173, 216, 230, 0.8)';
+    body.style.backgroundColor = 'rgb(47, 147, 180)';
   }
   
 function trocarCorBotao2() {
@@ -44,6 +45,7 @@ function trocarCorBotao2() {
     conteudo.style.backgroundColor = 'rgb(104, 214, 163, 0.5)';
     rodape.style.backgroundColor = "rgb(104, 214, 163)"; 
     menuItens1.style.backgroundColor = 'rgb(104, 214, 163, 0.8)';
+    body.style.backgroundColor = "rgb(104, 214, 163)"; 
   }
 function trocarCorBotao3() {
     const botao1 = document.getElementById("botao3");
@@ -55,4 +57,5 @@ function trocarCorBotao3() {
     conteudo.style.backgroundColor = 'rgb(217, 219, 88, 0.5)';
     rodape.style.backgroundColor = "rgb(217, 219, 88)"; 
     menuItens1.style.backgroundColor = 'rgba(217, 219, 88, 0.8)';
+    body.style.backgroundColor = "rgb(217, 219, 88)"; 
   }
