@@ -9,11 +9,12 @@
 header{
     background-color: rgb(47, 147, 180);
     padding: 10px;
+    transition: background-color 0.3s;
 
 }
 
 body{
-    background: linear-gradient(to bottom, rgb(96, 224, 171), #fff);
+    background: rgb(47, 147, 180);
     height: 100%;
     position: relative;
 }
@@ -26,6 +27,7 @@ main{
     position: absolute;
     margin-left: 10%;
     margin-right: 10%;
+    z-index: 1; 
 }
 
 a{
@@ -42,6 +44,13 @@ a{
     font-size: 30px;
 }
 
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
 #menu-itens1{
     position: absolute;
     border: 1px solid black;
@@ -49,10 +58,11 @@ a{
     background-color: rgb(121, 190, 212);
     font-size: 25px;
     padding: 10px;
+    z-index: 2; 
 }
 
 .rodape {
-    background-color: #68d6a3ff; 
+    background-color: rgb(47, 147, 180); 
     padding: 50px; 
     height: 150px;
     display: flex; 
@@ -66,7 +76,7 @@ a{
     align-items: center;
     height: 400px;
     padding: 50px;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: rgba(173, 216, 230, 0.5); 
 }
 
@@ -84,8 +94,29 @@ a{
     cursor: pointer;
 }
 
+.login{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px; 
+    font-size: 14px; 
+    display: inline-block;
+    height: 40px; 
+    line-height: 20px; 
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+    justify-content: space-around;
+    margin-left: 20px; 
+
+}
+.login:hover{
+    background-color: #34ca57;
+    text-decoration: none; 
+    cursor:pointer;
+}
+
 .botoes{
-    /* margin-left: 80%; */
     margin-top: 7px;
 }
 
@@ -99,87 +130,33 @@ a{
 }
 
 .botao1{
-    background-color: rgba(173, 216, 230, 0.5);
+    background-color: rgba(98, 191, 223, 0.5);
     margin-left: 40px;
+    transition: transform 0.2s ease-in-out;
 }
 .botao2{
-    background-color: rgb(104, 214, 163);
+    background-color:  rgb(104, 214, 163);
+    transition: transform 0.2s ease-in-out;
 }
 .botao3{
     background-color: rgb(217, 219, 88);
+    transition: transform 0.2s ease-in-out;
 }
 .botao1:hover{
     background-color: rgba(55, 186, 230, 0.5);
+    transform: translateY(-2px);
 }
 .botao2:hover{
     background-color: rgb(42, 235, 145);
+    transform: translateY(-2px);
 }
 .botao3:hover{
     background-color: rgb(233, 236, 38);
+    transform: translateY(-2px);
 }
 
 .botoes button:active{
     box-shadow: inset -2px 2px 0 #222;
-}
-
-.form{
-    padding: 0 40px 30px;
-}
-.controle{
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.controle label{
-    display: inline-block;
-    color:#041944;
-    font-weight: 900;
-}
-
-.controle input{
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    width: 60%;
-    height: 30px;
-    font-size: 1rem;
-    padding: 10px;
-}
-
-.controle.error i.error{
-    visibility: visible;
-}
-
-.controle.sucesso i.sucesso{
-    visibility: visible;
-}
-.controle.error small{
-    color:rgb(47, 147, 180);
-    font-size: 11px; /* 1rem equivale a 16px*/
-    visibility: visible;
-}
-.controle i{
-    position: absolute;
-    top:4px;
-    right: 10px;
-    visibility: hidden;  
-}
-.controle small{
-    visibility: hidden;
-    position: absolute;
-    margin-top: 5px;
-    font-size: 10px;
-    color:rgb(47, 147, 180);
-}
-.form button{
-    width: 70%;
-    height: 30px;
-    border-radius: 20px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    background: rgb(47, 147, 180);
-    color:#fff;
-    margin-left: 50px;
 }
 
 .menu-subitem.menu-subitem a{
@@ -187,6 +164,11 @@ a{
 }
 
 .menu-subitem a:hover{
-    color: white;
+    color: white; 
+}
+
+.conteudo img{
+    margin-right: 10px;
+    border-radius: 4px;
 }
 
