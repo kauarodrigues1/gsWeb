@@ -128,6 +128,7 @@ a{
 .controle{
     padding-bottom: 20px;
     position: relative;
+    transition: transform 0.2s ease-in-out;
 }
 
 .controle label{
@@ -137,7 +138,7 @@ a{
 }
 
 .controle input{
-    border: 2px solid #ccc;
+    border: 2px solid lightslategray;
     border-radius: 5px;
     width: 60%;
     height: 30px;
@@ -180,6 +181,7 @@ a{
     background: rgb(47, 147, 180);
     color:#fff;
     margin-left: 50px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .menu-subitem.menu-subitem a{
@@ -190,3 +192,11 @@ a{
     color: white;
 }
 
+.controle:hover{
+    transform: translateY(-2px);
+    
+}
+
+.form button:hover{
+    transform: translateY(-2px);
+} 

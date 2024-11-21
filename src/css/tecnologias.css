@@ -78,6 +78,9 @@ a{
     padding: 50px;
     border-radius: 30px;
     background-color: rgba(173, 216, 230, 0.5); 
+    transition: transform 0.2s ease-in-out;
+    backdrop-filter: blur(2px);
+    border: 1px solid lightblue;
 }
 
 .menu-subitens-hidden{
@@ -172,3 +175,19 @@ a{
     border-radius: 4px;
 }
 
+.conteudo h1 {
+    color: rgb(0, 201, 33);
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 150px;
+    margin-left: 260px;
+}
+
+.conteudo p{
+    font-size: 22px;
+}
+
+.conteudo:hover{
+    transform: translateY(-5px);
+    
+}
