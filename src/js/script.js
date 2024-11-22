@@ -1,4 +1,3 @@
-alert('Seja bem-vindo!')
 
 let elem = document.getElementById("menu-item1")
 console.log("Elem: ",elem);
