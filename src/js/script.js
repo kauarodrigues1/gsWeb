@@ -1,3 +1,5 @@
+alert('Seja bem-vindo!')
+
 let elem = document.getElementById("menu-item1")
 console.log("Elem: ",elem);
 let elemItens = document.getElementById("menu-itens1")
