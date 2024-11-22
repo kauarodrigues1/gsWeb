@@ -84,6 +84,10 @@ a{
     box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 }
 
+.texto{
+    flex-direction: column;
+}
+
 .menu-subitens-hidden{
     display: none;
 } 
@@ -178,14 +182,10 @@ a{
 
 .conteudo h1 {
     color: rgb(0, 201, 33);
-    position: absolute;
-    display: inline-block;
-    margin-bottom: 170px;
-    margin-left: 260px;
 }
 
 .conteudo p{
-    font-size: 22px;
+    font-size: clamp(2px, 2vw, 24px);
 }
 
 .conteudo:hover{
